@@ -1,0 +1,16 @@
+name: DSO Support Request
+description: Request help with pipeline or build job
+title: "[Support]:"
+label: "need help"
+body:
+- type: markdown:
+attributes:
+  value:
+    Let us know how we can help!
+- type: textarea
+  attributes
+    label: What happened?
+    description: What error are you seeing?
+    placeholder: Tell us what you see
+  validations:
+    required: true
