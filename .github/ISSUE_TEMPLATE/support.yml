@@ -1,6 +1,6 @@
 name: "DSO Support Request"
 description: Request help with pipeline or build job
-title: "[Support]: "
+title: "[Brief description]: "
 labels: ["need help", "support"]
 assignees:
   - DSO Support Team
