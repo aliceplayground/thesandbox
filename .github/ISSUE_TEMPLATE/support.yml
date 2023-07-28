@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: idVerbiageGoesHere
+    id: idVerbiageGoesHere1
     attributes:
       label: Label goes here
       description: Put description here
@@ -37,7 +37,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: idVerbiageGoesHere
+    id: idVerbiageGoesHere2
     attributes:
       label: Put the description here
       multiple: true
