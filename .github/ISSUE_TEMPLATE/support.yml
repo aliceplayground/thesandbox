@@ -1,4 +1,4 @@
-name: DSO Support Request
+name: "DSO Support Request"
 description: Request help with pipeline or build job
 title: "[Support]: "
 labels: ["need help", "support"]
@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: id verbiage goes here
+    id: idVerbiageGoesHere
     attributes:
       label: Label goes here
       description: Put description here
@@ -37,7 +37,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: id verbiage goes here
+    id: idVerbiageGoesHere
     attributes:
       label: Put the description here
       multiple: true
