@@ -3,7 +3,7 @@ description: Request help with pipeline or build job
 title: "[Support]:"
 label: "need help"
 body:
-- type: markdown:
+- type: markdown
 attributes:
   value:
     Let us know how we can help!
