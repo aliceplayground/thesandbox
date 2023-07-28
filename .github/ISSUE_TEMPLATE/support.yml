@@ -1,16 +1,54 @@
 name: DSO Support Request
 description: Request help with pipeline or build job
-title: "[Support]:"
-label: "need help"
+title: "[Support]: "
+labels: ["need help", "support"]
+assignees:
+  - DSO Support Team
 body:
-- type: markdown
-attributes:
-  value:
-    Let us know how we can help!
-- type: textarea
-  attributes
-    label: What happened?
-    description: What error are you seeing?
-    placeholder: Tell us what you see
-  validations:
-    required: true
+  - type: markdown
+    attributes:
+      value: |
+        Let us know how we can help!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. your name or team name
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "This is what is happening"
+    validations:
+      required: true
+  - type: dropdown
+    id: id verbiage goes here
+    attributes:
+      label: Label goes here
+      description: Put description here
+      options:
+        - first list option
+        - second list option
+    validations:
+      required: true
+  - type: dropdown
+    id: id verbiage goes here
+    attributes:
+      label: Put the description here
+      multiple: true
+      options:
+        - one
+        - Two
+        - Three
+        - Four
+  - type: textarea
+    id: logs
+    attributes:
+      label: link to log output
+      description: Please copy and paste any relevant log output links. 
+  
