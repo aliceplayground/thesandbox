@@ -1,8 +1,6 @@
 name: "DEVSECOPS request"
 description: Request help with pipeline or build job
 title: "// [Brief description]: "
-validations:
-      required: true
 labels: ["need help", "support"]
 assignees:
   - DSO Support Team
