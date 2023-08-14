@@ -1,0 +1,52 @@
+name: "DSO Support Request"
+description: Request help with pipeline or build job
+title: "[Brief description]: "
+labels: ["need help", "support"]
+assignees:
+  - DSO Support Team
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Let us know how we can help!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. your name or team name
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "This is what is happening"
+    validations:
+      required: true
+  - type: dropdown
+    id: idVerbiageGoesHere1
+    attributes:
+      label: Issue Type
+      description: Select Tool
+      options:
+        - General Question
+        - CD
+        - CI
+        - CloudOps SSH
+        - Fortify
+        - Nexus IQ
+        - PCF
+        - Rapid DevSecOps
+        - SonarQube
+        - UDeploy
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: link to log output
+      description: Please copy and paste any relevant log output links. 
+  
