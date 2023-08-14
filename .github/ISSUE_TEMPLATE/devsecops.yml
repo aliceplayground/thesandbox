@@ -32,6 +32,7 @@ body:
       label: Issue Type
       description: Select Tool
       options:
+        -
         - General Question
         - CD
         - CI
