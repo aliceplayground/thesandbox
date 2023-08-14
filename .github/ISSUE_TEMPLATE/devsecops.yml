@@ -1,4 +1,4 @@
-name: "DSO Support Request"
+name: "DEVSECOPS request"
 description: Request help with pipeline or build job
 title: "[Brief description]: "
 labels: ["need help", "support"]
