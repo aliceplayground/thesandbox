@@ -16,7 +16,7 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. your name or team name
     validations:
-      required: true
+      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -25,7 +25,7 @@ body:
       placeholder: Tell us what you see!
       value: "This is what is happening"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: idVerbiageGoesHere1
     attributes:
